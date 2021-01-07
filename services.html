@@ -1,0 +1,118 @@
+<!doctype HTML>
+<html lang='en'>
+    <head>
+        <title>Services | Gamer's Lobby</title>
+        <meta charset="UTF-8" lang="en">
+        <link rel="stylesheet" type="text/css" href="css/gamerStyles.css">
+        <link rel="stylesheet" type="text/css" href="css/headerReduce.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="images/gamerLobbyIcon2.png" type="image/gif" sizes="32x32">
+
+    </head>
+    <!--------------->
+    <body onbeforeunload="saveStyle()" onload="loadStyle()">
+        <!----HEADER---->
+        <header>
+            <img src="images/gamerLobbyLogoCut2.png">
+            <h1>The Gamer's Lobby</h1>
+        </header>   
+        <!------NAVIGATION------->
+        <nav>
+            <button id="navChanger" onclick="changeNav()">Change Link Styles</button>
+            <div id="linkArea">
+                <a href="services.html" class="link1 links" style="border: solid red 0.2em;"><figure><img class="linkImages" src="images/GservicesIcon.png"><figcaption>Services</figcaption></figure></a>
+                <a href="contact.html" class="link2 links"><figure><img class="linkImages" src="images/GcontactIcon.png"><figcaption>Contact</figcaption></figure></a>
+                <a href="index.html" class="link3 links"><figure><img class="linkImages" src="images/GhomepageIcon.png"><figcaption>Home</figcaption></figure></a>
+                <a href="about.html" class="link4 links"><figure><img class="linkImages" src="images/GaboutIcon.png"><figcaption>About</figcaption></figure></a>
+                <a href="products.html" class="link5 links"><figure><img class="linkImages" src="images/GproductsIcon.png"><figcaption>Products</figcaption></figure></a>
+            </div>
+            <div id="buttonArea" class="shown">
+                <button id="leftButton">&lt;&lt;&lt;</button>
+                <button id="rightButton">&gt;&gt;&gt;</button>
+            </div>
+        </nav>
+        <!------CONTENT SECTIONS------->
+        <article class="row">
+            <div class="spacer col-sm-1"></div>
+            <div id="contentArea" class="col-sm-10">
+                <section>
+                    <h2>Services</h2>
+                    <hr class="headingDivider">
+                    <p>Our company plans to have services to support our gaming community beyond just products. The Gamer's Lobby will offer users the option to gain mentoring from more professional gamers, as well as tournament setups.  We also host our own servers for most requested games from our community.</p>
+                    <hr>
+                    <h3>Tournament Services</h3>
+                    <hr>
+                    <figure><img src="images/gameTournament2.png"><figcaption>Gamer's Lobby Local Tournament</figcaption></figure>
+                    <ul>
+                        <li>Cost: Depends on Game</li>
+                        <li>Any supported game can be requested</li>
+                        <li>Time frame: 8: 30 AM - 10: 00 PM</li>
+                        <li><a href="#">More Info</a></li>
+                    </ul>
+                    
+                    <button>Purchase</button>
+                    <hr>
+                    <h3>Mentoring Services</h3>
+                    <hr>
+                    <figure><img src="images/gamingMentoring.png"><figcaption>Gamer's Lobby Personal Training</figcaption></figure>
+                    <ul>
+                        <li>Cost: Depends on Game</li>
+                        <li>Any supported game can be requested</li>
+                        <li>Time frame: 12: 00 PM - 10: 00 PM</li>
+                        <li>Online services have lower costs</li>
+                        <li><a href="#">More Info</a></li>
+                    </ul>
+                    
+                    <button>Purchase</button>
+
+                    <hr>
+                    <h3>Server Hosting</h3>
+                    <hr class="miniDivider">
+                    <p>Gamer's Lobby offers server hosting for certain games that may demand it, which mainly include sandbox games or competitive games that may warrant personal servers.</p>
+                    <hr>
+                    <figure><img src="images/gamerLobbyServer.png"><figcaption>Gamer's Lobby High Speed Server Hosting</figcaption></figure>
+                    <ul>
+                        <li>Cost: Depends on Game</li>
+                        <li>Any supported game can be requested</li>
+                        <li>Time frame: 24/7</li>
+                        <li>Server speeds may vary, as will cost</li>
+                        <li><a href="#">More Info</a></li>
+                    </ul>
+                    
+                    <button>Purchase</button>
+                </section>
+            </div>
+            <div class="spacer col-sm-1"></div>
+        </article>
+        <!------FOOTER------->
+        <footer>
+            <div id="footerSpacer"></div>
+            <p>All rights are reserved to The Gamer's Lobby&#8482;. Do not attempt to steal any content from this website for personal use without approval.</p>
+            <div class ="linesHolder">
+                <hr>
+                <hr>
+            </div>
+            <p>Our employees and community as a whole strives to make sure that our customer's and community members will have the best experience.  We as a company promote equality and fairness among all individuals.  Any violations of these basic principles will not be accepted and should be reported immediately in the contact section.</p>
+            <div class ="linesHolder">
+                <hr>
+                <hr>
+            </div>
+            <div id="footerLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </footer>
+        <!-----Bootstrap and Functionality Javascript----->
+        <script src="js/gamer.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <!--------->
+    </body>
+</html>

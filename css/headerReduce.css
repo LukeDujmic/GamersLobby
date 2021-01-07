@@ -1,0 +1,19 @@
+header{
+    padding: 1em 0em 1em 0em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header > h1{
+    display: relative;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    width: 10em;
+}
+header > img{
+    display: relative;
+    margin: 0;
+    right: 0;
+    width: 10em;
+}
