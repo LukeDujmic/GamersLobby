@@ -33,7 +33,8 @@ body{
     background-size: cover;
     padding-bottom: 0em;
     margin-bottom: 0em;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
+    min-width: 25em;
 }
 
 /* HEADER STYLES */
@@ -225,7 +226,6 @@ figure > img{
 /* article styles */
 article{
     background-color: rgba(0, 0, 0, 0.5);
-    min-width: 25em;
 }
 #contentArea > section
 {
@@ -392,3 +392,10 @@ footer > #footerLinks{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+      overflow-x: visible;
+    }
+  }
+  
